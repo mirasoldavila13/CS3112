@@ -1,0 +1,10 @@
+1. for i = red jug
+		for j = blue jug
+			if( pick a pair of jugs in which one is red and one is blue,
+				fill the red jug with water, and
+				then pour the water into the blue jug.)
+			
+				take out red jug and blue jug
+			
+			red jug and blue jug because they are the same
+			

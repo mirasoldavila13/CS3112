@@ -1,0 +1,22 @@
+1.(5 pts) Given a four-gallon jug and a seven-gallon jug, design an algorithm to reach the state of precisely three gallons of water in the four-gallon jug. Consider each step equals one (1) operation.
+
+	Jug A = 4 , Jug B = 7;
+	1. Fill Jug B
+	2. Pour(B,A)
+	3. Spill Jug A
+	4. Pour(B,A)- now Jug A has 3 gallons of water
+
+2.(5 pts) Given an eight-gallon jug and a nine-gallon jug, design an algorithm to reach the state of precisely three gallons of water in the eight-gallon jug. Consider each step equals one (1) operation.
+	Jug A = 8 , Jug B = 9;
+	1. Fill Jug B
+	2. Pour(B,A)
+	3. Spill Jug A
+	4. Pour(B,A)
+	5. Fill Jug B
+	6. Pour(B,A)
+	7. Spill Jug A
+	8. Pour(B,A)
+	9. Fill Jug B
+	10. Pour(B,A) 
+	11. Spill Jug A
+	12. Pour(B,A)

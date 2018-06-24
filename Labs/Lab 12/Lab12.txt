@@ -1,0 +1,61 @@
+Stack data = new Stack();
+
+ Let data be a stack for the InOrder, PreOrder, and PostOrder methods
+
+InOrder(root)
+
+   
+    
+    if (root is not NULL)
+        data.push(x)
+        
+        
+    
+    while root is not equal to NULL
+        
+        if (root.left is NULL and x.right is NULL)
+            data.pop(x)
+            
+        else if(root.left is NIL)
+            m = Stack.peek()
+            
+        if (m.left != NIL )
+            data.push(m.left)
+            
+        else
+            top = Stack.pop()
+            print(top)
+            
+            if(data.right != NIL)
+                data.push(top.right)
+            
+        print root.right
+        
+        
+
+PreOrder(root)
+
+    print root
+    
+    while !data.emptyStack is not equal to NULL
+        A.pop(x)
+        
+        if(root.left is not equal to NULL)
+            data.push(root.left)
+            
+        if(root.left is not equal to NULL)
+            data.push(root.right)
+        
+
+ PostOrder(root)
+
+   
+    while !data.emptyStack is not equal to NULL
+        if(root.left is not NULL)
+            data.push(root.left)
+            print(root.left)
+            root.left = NULL
+        
+        if(root.right is not NULL)
+            data.push(root.right)
+            print(root.right)

@@ -1,0 +1,20 @@
+Design algorithm:
+
+(10 pts) We wish to implement a dictionary by using addressing on a huge array. At the start, the array entries may 
+contain garbage and initializing the entire array is impractical because of its size. Describe a scheme for implementing
+ a direct-address dictionary on a huge array. Each stored object should use O(1) space; the operations SEARCH, INSERT, and 
+ DELETE should take O(1) time each; and initializing the data structure should take O(1) time.
+
+
+Once we INSERT a new node, we can then push the pointer address into the array on the stack, 
+then set the value of that cell to the stack index.
+
+Then when we SEARCH, we get the value that's in the array. we would then check if the stack index is valid by checking
+if the value is n, then the stack will at most be n nodes and then the value at the position of the stack will be the
+original node, stating that we can conclude that we have a match. If not then the stack index is not valid.
+
+
+When we DELETE a node there would be a hole in the stack. We can fix it by moving the top item into the hole and updating 
+the value in the array.
+
+
